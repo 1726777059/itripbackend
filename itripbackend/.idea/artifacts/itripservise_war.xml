@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itripservise:war">
+    <output-path>$PROJECT_DIR$/itripservise/target</output-path>
+    <root id="archive" name="itripservise.war">
+      <element id="artifact" artifact-name="itripservise:war exploded" />
+    </root>
+  </artifact>
+</component>

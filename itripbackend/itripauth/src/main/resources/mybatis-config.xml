@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	
+	<settings>
+		<setting name="logImpl" value="LOG4J"></setting>
+	</settings>
+	
+	<typeAliases>
+		<!-- <typeAlias type="cn.smbms.entity.User" alias="user"/> -->
+		<!-- 给cn.smbms.entity下的所有类都取一个别名，别名为该类的类名 -->
+		<package name="com.bdqn.entity"></package>
+	</typeAliases>
+	
+	<!-- <mappers>
+		将UserMapping.xml文件引入到配置文件中
+		<mapper resource="com/bdqn/dao/AppInfoMapper.xml"/>
+	</mappers> -->
+</configuration>

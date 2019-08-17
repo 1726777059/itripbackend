@@ -1,0 +1,8 @@
+# Project exclude paths
+/itripbackend/itripauth/target/
+/itripbackend/itripbeans/target/
+/itripbackend/itripdao/target/
+/itripbackend/itripsearch/target/
+/itripbackend/itripservise/target/
+/itripbackend/itriptrade/target/
+/itripbackend/itriputils/target/
